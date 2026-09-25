@@ -81,7 +81,7 @@ export default function LandingPage() {
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-md">
             <GitBranch className="w-5 h-5 text-white" />
           </div>
-          <span className="font-bold text-xl text-stone-900">FamilyTree</span>
+          <span className="font-bold text-xl text-stone-900">Know Your Family</span>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 20 }}
@@ -298,7 +298,7 @@ export default function LandingPage() {
             <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
               <GitBranch className="w-3.5 h-3.5 text-white" />
             </div>
-            <span className="font-medium text-stone-600">FamilyTree</span>
+            <span className="font-medium text-stone-600">Know Your Family</span>
           </div>
           <p>Documents are private by default. Nothing is ever public.</p>
         </div>

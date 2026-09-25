@@ -11,14 +11,14 @@ export interface SearchResult {
   // phone_number is intentionally NEVER returned in search results
 }
 
-export interface FamilyTreeNode {
+export interface Know Your FamilyNode {
   id: string;
   full_name: string;
   current_photo_url: string | null;
   user_id: string | null;
 }
 
-export interface FamilyTreeEdge {
+export interface Know Your FamilyEdge {
   source: string;
   target: string;
   relationship_type: string;

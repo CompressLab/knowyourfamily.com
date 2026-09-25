@@ -410,7 +410,7 @@ export default function DashboardPage() {
           </div>
           <h3 className="font-semibold text-stone-900 mb-2">Start building your family tree</h3>
           <p className="text-sm text-stone-500 mb-6 max-w-xs mx-auto">
-            Add family members, send connection requests, or find relatives already on FamilyTree.
+            Add family members, send connection requests, or find relatives already on Know Your Family.
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
             <Link href="/people/add">

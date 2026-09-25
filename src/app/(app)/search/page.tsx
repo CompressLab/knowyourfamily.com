@@ -134,7 +134,7 @@ function SearchPage() {
     <div className="p-4 md:p-8 max-w-2xl mx-auto space-y-6">
       <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-2xl font-bold text-stone-900 mb-1">Find People</h1>
-        <p className="text-stone-500 text-sm mb-5">Search for family members and friends already on FamilyTree</p>
+        <p className="text-stone-500 text-sm mb-5">Search for family members and friends already on Know Your Family</p>
 
         <form onSubmit={handleSubmit} className="relative">
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-stone-400 pointer-events-none" />
@@ -176,7 +176,7 @@ function SearchPage() {
                 <p className="text-sm text-stone-500 max-w-xs mx-auto mb-6">
                   {isPhoneSearch
                     ? "No one with that phone number has enabled phone discovery, or the number isn't registered."
-                    : `No profiles found for "${query}". They might not be on FamilyTree yet.`}
+                    : `No profiles found for "${query}". They might not be on Know Your Family yet.`}
                 </p>
                 <Link href="/people/add">
                   <Button size="sm" className="gap-1.5">

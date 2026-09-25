@@ -60,7 +60,7 @@ export default function PrivacySettingsPage() {
           Settings
         </Link>
         <h1 className="text-2xl font-bold text-stone-900">Profile & Privacy</h1>
-        <p className="text-stone-500 text-sm mt-1">Control how people can find you on FamilyTree</p>
+        <p className="text-stone-500 text-sm mt-1">Control how people can find you on Know Your Family</p>
       </motion.div>
 
       <Card>

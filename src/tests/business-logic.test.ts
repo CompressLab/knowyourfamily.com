@@ -1,5 +1,5 @@
 /**
- * Critical business logic tests for FamilyTree.
+ * Critical business logic tests for Know Your Family.
  * Tests core rules that must always hold true.
  */
 import { describe, it, expect, vi, beforeEach } from "vitest";

@@ -59,7 +59,7 @@ export function AppShell({ children }: AppShellProps) {
         <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-md">
           <Logo className="w-4 h-4 text-white" />
         </div>
-        <span className="font-bold text-lg text-stone-900">FamilyTree</span>
+        <span className="font-bold text-lg text-stone-900">Know Your Family</span>
       </Link>
 
       {/* Profile summary */}
@@ -188,7 +188,7 @@ export function AppShell({ children }: AppShellProps) {
             <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
               <Logo className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-stone-900">FamilyTree</span>
+            <span className="font-bold text-stone-900">Know Your Family</span>
           </div>
           {unreadCount > 0 && (
             <Link href="/notifications" className="relative p-2">

@@ -75,7 +75,7 @@ function LoginForm() {
             <LogIn className="w-7 h-7 text-white" />
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
-          <CardDescription>Sign in to your FamilyTree account</CardDescription>
+          <CardDescription>Sign in to your Know Your Family account</CardDescription>
         </CardHeader>
         <CardContent>
           {registered && (

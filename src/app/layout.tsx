@@ -11,8 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "FamilyTree — Know, Connect, Trust",
-    template: "%s | FamilyTree",
+    default: "Know Your Family — Know, Connect, Trust",
+    template: "%s | Know Your Family",
   },
   description:
     "Manage family relationships, securely store important documents, and connect with trusted people.",
