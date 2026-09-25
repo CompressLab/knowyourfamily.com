@@ -90,11 +90,11 @@ function getLayoutedElements(nodes: Node[], edges: Edge[]) {
   };
 }
 
-interface Know Your FamilyViewProps {
+interface FamilyTreeViewProps {
   rootPersonId?: string;
 }
 
-export function Know Your FamilyView({ rootPersonId }: Know Your FamilyViewProps) {
+export function FamilyTreeView({ rootPersonId }: FamilyTreeViewProps) {
   const { person: myPerson } = useUser();
   const router = useRouter();
   const supabase = createClient();

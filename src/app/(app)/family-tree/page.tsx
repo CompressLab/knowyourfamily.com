@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { GitBranch, Maximize2, UserPlus } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Know Your FamilyView } from "@/components/family-tree/Know Your FamilyView";
+import { FamilyTreeView } from "@/components/family-tree/FamilyTreeView";
 import { useUser } from "@/hooks/useUser";
 
-export default function Know Your FamilyPage() {
+export default function FamilyTreePage() {
   const { person } = useUser();
   const [fullscreen, setFullscreen] = useState(false);
 
@@ -57,7 +57,7 @@ export default function Know Your FamilyPage() {
             <Button size="sm" variant="outline" onClick={() => setFullscreen(false)}>Exit fullscreen</Button>
           </div>
         )}
-        <Know Your FamilyView rootPersonId={person?.id} />
+        <FamilyTreeView rootPersonId={person?.id} />
       </motion.div>
 
       {!fullscreen && (
